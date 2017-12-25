@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol ModelTransfer where Self: UIView
+protocol ViewModelTransfer where Self: UIView
 {
     associatedtype ViewModelType
     
@@ -39,7 +39,7 @@ extension UICollectionView
         }
     }
     
-    func register<Cell: ModelTransfer & UICollectionViewCell>(_ cellType: Cell.Type,
+    func register<Cell: ViewModelTransfer & UICollectionViewCell>(_ cellType: Cell.Type,
                                                               for viewModelType: Any.Type)
     {
         let identifier = String(describing: cellType)
@@ -47,7 +47,7 @@ extension UICollectionView
         self.identifierViewModelArray.append((identifier, viewModelType, cellType))
     }
     
-    func dequeueReusableCell<T: ModelTransfer & UICollectionViewCell>(withViewModel viewModel: Any,
+    func dequeueReusableCell<T: ViewModelTransfer & UICollectionViewCell>(withViewModel viewModel: Any,
                                                                       for indexPath: IndexPath) -> T
     {
         var cell: T?
@@ -90,7 +90,7 @@ extension UITableView
         }
     }
     
-    func register<Cell: ModelTransfer & UITableViewCell>(_ cellType: Cell.Type,
+    func register<Cell: ViewModelTransfer & UITableViewCell>(_ cellType: Cell.Type,
                                                               for viewModelType: Any.Type)
     {
         let identifier = String(describing: cellType)
@@ -98,7 +98,7 @@ extension UITableView
         self.identifierViewModelArray.append((identifier, viewModelType, cellType))
     }
     
-    func dequeueReusableCell<T: ModelTransfer & UITableViewCell>(withViewModel viewModel: Any,
+    func dequeueReusableCell<T: ViewModelTransfer & UITableViewCell>(withViewModel viewModel: Any,
                                                                       for indexPath: IndexPath) -> T
     {
         var cell: T?

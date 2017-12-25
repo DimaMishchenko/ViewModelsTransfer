@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96204D0A1FF135E700739E94 /* TableViewCellWithClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96204D091FF135E700739E94 /* TableViewCellWithClass.swift */; };
+		96204D0C1FF135F500739E94 /* ClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96204D0B1FF135F500739E94 /* ClassViewModel.swift */; };
 		9666191F1FEA8BD300DB2300 /* ViewModelsTransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666191E1FEA8BD300DB2300 /* ViewModelsTransferUITests.swift */; };
 		966619321FEA8C3300DB2300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666192A1FEA8C3300DB2300 /* ViewController.swift */; };
 		966619331FEA8C3300DB2300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9666192B1FEA8C3300DB2300 /* Assets.xcassets */; };
@@ -15,6 +17,11 @@
 		966619361FEA8C3400DB2300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966619301FEA8C3300DB2300 /* AppDelegate.swift */; };
 		966619371FEA8C3400DB2300 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 966619311FEA8C3300DB2300 /* Info.plist */; };
 		9666193A1FEA9EAC00DB2300 /* ViewModelsTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966619391FEA9EAC00DB2300 /* ViewModelsTransfer.swift */; };
+		9666193D1FEAA07100DB2300 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666193C1FEAA07100DB2300 /* TableViewController.swift */; };
+		9666193F1FEAA08900DB2300 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666193E1FEAA08900DB2300 /* CollectionViewController.swift */; };
+		966619441FEAA28100DB2300 /* TableViewCellWithString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966619431FEAA28100DB2300 /* TableViewCellWithString.swift */; };
+		966619471FEAA32000DB2300 /* TableViewCellWithStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966619461FEAA32000DB2300 /* TableViewCellWithStruct.swift */; };
+		966619491FEAA39200DB2300 /* StructViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966619481FEAA39200DB2300 /* StructViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96204D091FF135E700739E94 /* TableViewCellWithClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellWithClass.swift; sourceTree = "<group>"; };
+		96204D0B1FF135F500739E94 /* ClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewModel.swift; sourceTree = "<group>"; };
 		966619061FEA8BD300DB2300 /* ViewModelsTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewModelsTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9666191A1FEA8BD300DB2300 /* ViewModelsTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewModelsTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9666191E1FEA8BD300DB2300 /* ViewModelsTransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelsTransferUITests.swift; sourceTree = "<group>"; };
@@ -39,6 +48,11 @@
 		966619301FEA8C3300DB2300 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		966619311FEA8C3300DB2300 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966619391FEA9EAC00DB2300 /* ViewModelsTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelsTransfer.swift; sourceTree = "<group>"; };
+		9666193C1FEAA07100DB2300 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9666193E1FEAA08900DB2300 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		966619431FEAA28100DB2300 /* TableViewCellWithString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellWithString.swift; sourceTree = "<group>"; };
+		966619461FEAA32000DB2300 /* TableViewCellWithStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellWithStruct.swift; sourceTree = "<group>"; };
+		966619481FEAA39200DB2300 /* StructViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96204D081FF135B300739E94 /* WithClass */ = {
+			isa = PBXGroup;
+			children = (
+				96204D091FF135E700739E94 /* TableViewCellWithClass.swift */,
+				96204D0B1FF135F500739E94 /* ClassViewModel.swift */,
+			);
+			path = WithClass;
+			sourceTree = "<group>";
+		};
 		966618FD1FEA8BD300DB2300 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +113,8 @@
 		966619291FEA8C3300DB2300 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				966619401FEAA1C100DB2300 /* Cells */,
+				9666193B1FEAA04A00DB2300 /* Controllers */,
 				9666192A1FEA8C3300DB2300 /* ViewController.swift */,
 				9666192B1FEA8C3300DB2300 /* Assets.xcassets */,
 				9666192C1FEA8C3300DB2300 /* LaunchScreen.storyboard */,
@@ -106,6 +131,50 @@
 				966619391FEA9EAC00DB2300 /* ViewModelsTransfer.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		9666193B1FEAA04A00DB2300 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9666193C1FEAA07100DB2300 /* TableViewController.swift */,
+				9666193E1FEAA08900DB2300 /* CollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		966619401FEAA1C100DB2300 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				966619411FEAA21400DB2300 /* Table */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		966619411FEAA21400DB2300 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				96204D081FF135B300739E94 /* WithClass */,
+				966619451FEAA30500DB2300 /* WithStruct */,
+				966619421FEAA23600DB2300 /* WithString */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		966619421FEAA23600DB2300 /* WithString */ = {
+			isa = PBXGroup;
+			children = (
+				966619431FEAA28100DB2300 /* TableViewCellWithString.swift */,
+			);
+			path = WithString;
+			sourceTree = "<group>";
+		};
+		966619451FEAA30500DB2300 /* WithStruct */ = {
+			isa = PBXGroup;
+			children = (
+				966619461FEAA32000DB2300 /* TableViewCellWithStruct.swift */,
+				966619481FEAA39200DB2300 /* StructViewModel.swift */,
+			);
+			path = WithStruct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966619441FEAA28100DB2300 /* TableViewCellWithString.swift in Sources */,
+				966619491FEAA39200DB2300 /* StructViewModel.swift in Sources */,
 				966619361FEA8C3400DB2300 /* AppDelegate.swift in Sources */,
 				9666193A1FEA9EAC00DB2300 /* ViewModelsTransfer.swift in Sources */,
 				966619321FEA8C3300DB2300 /* ViewController.swift in Sources */,
+				96204D0C1FF135F500739E94 /* ClassViewModel.swift in Sources */,
+				9666193D1FEAA07100DB2300 /* TableViewController.swift in Sources */,
+				9666193F1FEAA08900DB2300 /* CollectionViewController.swift in Sources */,
+				966619471FEAA32000DB2300 /* TableViewCellWithStruct.swift in Sources */,
+				96204D0A1FF135E700739E94 /* TableViewCellWithClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77X75EH6F4;
-				INFOPLIST_FILE = ViewModelsTransfer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.view.models.transfer.ViewModelsTransfer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77X75EH6F4;
-				INFOPLIST_FILE = ViewModelsTransfer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.view.models.transfer.ViewModelsTransfer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
